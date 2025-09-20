@@ -6,7 +6,7 @@ export default function HeadTopBar() {
       <div className="max-w-3xl mx-auto px-6 py-3 flex items-center justify-between">
         <h1 className="text-lg font-bold">10k</h1>
         <span className="text-xs text-neutral-500">
-          let's decode the financial realm
+          decoding the financial realm
         </span>
       </div>
     </div>
