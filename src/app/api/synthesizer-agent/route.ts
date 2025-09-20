@@ -37,7 +37,7 @@ function loadPathIndex(): PathDoc[] {
   if (PATH_INDEX) return PATH_INDEX;
 
   // CSV must live at public/data/meta.csv with headers: Path,Content
-  const filePath = join(process.cwd(), "src", "app", "data", "meta.csv");
+  const filePath = join(process.cwd(), "public", "database", "Meta.csv");
   const csv = readFileSync(filePath, "utf8");
   const rows = parse(csv, { columns: true, bom: true, trim: true }) as Row[];
 
